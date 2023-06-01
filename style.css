@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+/* TOTAL >> */
+#container {
+    width: 100%;
+    background: #fff;
+    
+}
+/*FIM TOTAL << */
+
+
+/* TOPO >>*/
+#topo {
+    background: rgb(161, 161, 161, 0%) url(codesem.png) no-repeat left top; /* https://apexensino.com.br/linguagens-de-programacao-mais-requisitadas/ */
+    height: 580px;
+    margin-bottom: 100px;
+    transition:2s;
+    background-size: 30%;
+}
+#topo:hover {
+    background: #a1a1a1 url(code.png) no-repeat right top; /* https://apexensino.com.br/linguagens-de-programacao-mais-requisitadas/ */
+    height: 580px;
+    margin-bottom: 100px;
+    transition:1s;
+    background-size: 30%;
+}
+#topo h1{
+    color: #f9f9f9;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 20%;
+}
+#topo h1:hover{
+    color: #000;
+    text-align: center;
+    border: 1px solid #f9f9f9;
+    border-radius: 10px;
+    box-shadow: #000 5px;
+}
+#topo h3 {
+    background: url(tiago.jpg) no-repeat;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    border-radius:100px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px #f9f9f9;
+}
+/*FIM TOPO <<*/
+
+
+ /* REDATIVO >>*/
+#redativo{
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background: #fff;
+}
+#redativo:hover{
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background: #fff;
+    border-bottom: 2px solid black;
+}
+/*FIM REDATIVO <<*/
+
+
+
+#topico-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#topicoum {
+    background: #a1a1a1 url(topicoumum.png) no-repeat; /* https://itforum.com.br/noticias/7-conteudos-para-quem-quer-se-familiarizar-com-a-area-de-programacao-e-desenvolvimento/ */
+    background-size: cover;
+    height: 100%;
+    transition:1s;
+    margin-bottom: 20px;
+    width: 30%;
+    float: left;
+    margin: 5px 2px;
+    
+}
+#topicoum:hover {
+    background: #a1a1a1 url(topicoum.jpg) no-repeat; /* https://itforum.com.br/noticias/7-conteudos-para-quem-quer-se-familiarizar-com-a-area-de-programacao-e-desenvolvimento/ */
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 20px;
+    transition:1s;
+}
+
+#topicodois {
+    background: #a1a1a1 url(suportecopia.jpeg) no-repeat; /* https://itforum.com.br/noticias/7-conteudos-para-quem-quer-se-familiarizar-com-a-area-de-programacao-e-desenvolvimento/ */
+    background-size: cover;
+    height: 100%;
+    transition:3s;
+    margin-bottom: 20px;
+    width: 30%;
+    float: left;
+    margin: 5px 2px;
+    
+}
+
+#topicodois:hover {
+    background: #a1a1a1 url(suporte.jpeg) no-repeat; /* https://itforum.com.br/noticias/7-conteudos-para-quem-quer-se-familiarizar-com-a-area-de-programacao-e-desenvolvimento/ */
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 20px;
+    transition:1s;
+}
+
+#topico-container  h2 {
+    color: #fff;
+    padding: 5px 5px 5px 25px;
+    /* width: 100%; */
+    margin: 0;
+    background-color: rgb(0, 0, 0, 80%);
+    text-decoration: underline;
+    text-shadow: white 3px;
+}
+#topico-container  h2:hover {
+    color: #fff;
+    padding: 5px 5px 5px 25px;
+    /* width: 100%; */
+    margin: 0;
+    background-color: rgb(0, 0, 0, 80%);
+    text-decoration: underline;
+}
+#topico-container   ul {
+    color: rgb(255, 255, 255, 0%);
+    padding: 10px 5px 10px 25px;
+    margin: 0;
+    /* width: 100%; */
+    text-decoration: none;
+    list-style: none;
+}
+
+#topico-container li {
+    padding: 16px 16px;
+    font-size: 20px;        
+}
+#topico-container ul:hover {
+    color: hsl(0, 0%, 100%);
+    padding: 10px 5px 10px 25px;
+    margin: 0;
+    /* width: 100%; */
+    text-decoration: none;
+    transition:1s;
+    background-color: rgb(0, 0, 0, 80%);
+}
+ #confirma{
+    background: url(confirma.gif) no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display:flex;
+    padding: 0px;
+    margin: 0px;
+}
